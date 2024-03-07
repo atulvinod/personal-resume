@@ -1,0 +1,222 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Atul Vinod} \\ \vspace{1pt}
+    \small +91 7889771639 $|$ \href{mailto:atulvinod1911@gmail.com}{\underline{atulvinod1911@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/atul-vinod-702ab1153/}{\underline{Linkedin}} $|$
+    \href{https://github.com/atulvinod}{\underline{Github}}$ | $
+    \href{https://astounding-salamander-284d75.netlify.app/}{\underline{Portfolio}}
+\end{center}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}
+    \item{
+     \textbf{Languages}{: Java, Python, SQL (MySQL), JavaScript, Typescript, HTML/CSS, C\#} \\
+    }
+     \item {
+     \textbf{Technologies}{: Spring, Hibernate, React, Next.js ,Node.js, Express, Flask, Docker, AWS  }
+     } 
+ \end{itemize}
+
+%-------------------------------------------
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Freelance Software Engineer}{Sep. 2023 -- Present}
+      {Upwork}{}
+      \resumeItemListStart
+        \resumeItem{Built attendance management system with features such as classroom timetable management, student record
+management, analytics dashboard for teachers and admins, etc. Used \textbf{Node.js} and
+\textbf{React} and AWS services such as \textbf{EC2, SQS, SNS and SES} for hosting, scalability and notifications.}
+        \resumeItem{Worked on multiple gigs implementing features, debugging and refactoring applications written in \textbf{JavaScript} and
+\textbf{Java}.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Software Engineer | Backend}{June 2022 -- Sept. 2023}
+      {InFeedo}{Remote}
+      \resumeItemListStart
+        \resumeItem{Contributed to the design and development of "Chat-Engine," a mission-critical microservice for the Amber
+application, improving application performance by 5x.
+}
+        \resumeItem{Implemented sensitive word alerts and contributed to the creation of custom NPM packages for efficient dangerous
+word detection.}
+        \resumeItem{Implemented AI-driven chat summary and sentiment acknowledgement feature, condensing chats into concise
+paragraphs and generating empathetic email templates for efficient communication}
+\resumeItem{Used \textbf{JavaScript}, \textbf{Node.js}, \textbf{Express.js}, \textbf{MySQL} and \textbf{AWS}.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer \& Internship| Full-Stack \& Mobile Apps}{May 2019 -- July 2019}
+      {Keka Technologies}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Contributed to the re-write of Keka Mobile app and implemented \textbf{Bloc} for state management and architecture}
+        \resumeItem{Migrated code-base to \textbf{Null Safety} for compatibility with future releases}
+        \resumeItem{Built custom GPS plugin for offline attendance capture, elevating Play Store ratings from 3.5 to 4.0 and
+surpassing 100K downloads}
+        \resumeItem{Utilized \textbf{ASP.NET Core},\textbf {Azure DevOps}, \textbf{Flutter}, \textbf{Angular}, and \textbf{SQL Server}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lovely Professional University}{Punjab, India}
+      {B.Tech, Computer Science \& Engineering}{Aug. 2017 -- Aug. 2021}
+    
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Thullo - Simple Kanban based Project Manager}}{ \href{https://github.com/atulvinod/thullo}{\underline{Github} $ | $ \href{https://thullo-4epa.onrender.com/}{\underline{Project Link}}}}
+          \resumeItemListStart
+            \resumeItem{Developed full-stack application to manage projects}
+            \resumeItem{Users can create projects, assign tasks to persons, add comments, custom banners, drag and drop cards etc.}
+            \resumeItem{Used \textbf{Postgres with Knex.js ORM}, \textbf{Express.js}, \textbf{React}.}
+            \resumeItem{Built CI/CD and migration workflows in \textbf{Github Actions} and \textbf{Webhooks} for automated deployment to \textbf{Render} cloud}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Questions and Answer platform}} {\href{https://github.com/atulvinod/corporateQna}{\underline{Github}}}
+          \resumeItemListStart
+            \resumeItem{Developed a platform where users can ask questions and get answers from other users and users can mark a particular answer as the solution to the question}
+            \resumeItem{The questions can also be divided into categories defined by the user}
+           \resumeItem{Used \textbf{ASP.NET}, \textbf{Angular}, \textbf{SQL Server} \textbf{Docker}}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+
+\end{document}
